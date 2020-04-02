@@ -9,16 +9,17 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <modules>
-        <module>nacosTest-order</module>
-        <module>nacosTest-user</module>
+        <module>springCloudXzy-service-user</module>
+        <module>springCloudXzy-service-order</module>
     </modules>
+    <packaging>pom</packaging>
 
-    <artifactId>nacosTest-service</artifactId>
+    <artifactId>springCloudXzy-service</artifactId>
     <dependencies>
         <dependency>
             <groupId>com.xzy</groupId>
-            <artifactId>springCloudXzy-interface</artifactId>
-            <version>1.0.0</version>
+            <artifactId>springCloudXzy-interface-user</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

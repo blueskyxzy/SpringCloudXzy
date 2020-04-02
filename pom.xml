@@ -30,8 +30,8 @@
         </dependency>
     </dependencies>
     <modules>
-        <module>nacosTest-interface</module>
-        <module>nacosTest-service</module>
+        <module>springCloudXzy-interface</module>
+        <module>springCloudXzy-service</module>
     </modules>
 
 
