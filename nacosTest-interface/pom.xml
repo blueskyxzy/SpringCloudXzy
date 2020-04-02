@@ -2,11 +2,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.xzy</groupId>
-        <artifactId>nacosTest</artifactId>
+        <artifactId>springCloudXzy</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <groupId>com.xzy</groupId>
-    <artifactId>alibabaduboo-interface</artifactId>
+    <artifactId>springCloudXzy-interface</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
     <name>${project.artifactId}</name>

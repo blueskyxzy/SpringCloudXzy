@@ -23,10 +23,15 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
             <version>0.2.2.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <version>2.0.0.RELEASE</version>
+        </dependency>
     </dependencies>
     <modules>
-        <module>nacosTest-user</module>
-        <module>nacosTest-order</module>
+        <module>nacosTest-interface</module>
+        <module>nacosTest-service</module>
     </modules>
 
 
