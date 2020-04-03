@@ -1,4 +1,4 @@
-package com.xzy.nacos;
+package com.xzy.springCloudXzy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

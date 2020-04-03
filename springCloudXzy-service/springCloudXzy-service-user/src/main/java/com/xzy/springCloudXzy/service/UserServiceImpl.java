@@ -1,4 +1,4 @@
-package com.xzy.nacos.service;
+package com.xzy.springCloudXzy.service;
 
 import com.xzy.service.UserService;
 import org.springframework.beans.factory.annotation.Value;

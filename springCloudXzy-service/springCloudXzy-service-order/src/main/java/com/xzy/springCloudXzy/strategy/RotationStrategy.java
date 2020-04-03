@@ -1,4 +1,4 @@
-package com.xzy.nacos.strategy;
+package com.xzy.springCloudXzy.strategy;
 
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.stereotype.Component;

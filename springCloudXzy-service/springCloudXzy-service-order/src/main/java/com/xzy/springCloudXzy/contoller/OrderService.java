@@ -1,6 +1,6 @@
-package com.xzy.nacos.contoller;
+package com.xzy.springCloudXzy.contoller;
 
-import com.xzy.nacos.strategy.RotationStrategy;
+import com.xzy.springCloudXzy.strategy.RotationStrategy;
 import com.xzy.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
