@@ -7,3 +7,7 @@
 *.iml
 out
 gen
+springCloudXzy-interface/springCloudXzy-interface-user/target/
+springCloudXzy-service/springCloudXzy-service-order/target/
+springCloudXzy-service/springCloudXzy-service-user/target/
+springCloudXzy/target/

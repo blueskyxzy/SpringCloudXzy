@@ -2,7 +2,6 @@ package com.xzy.springCloudXzy.service;
 
 import com.xzy.service.UserService;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -18,7 +17,7 @@ public class UserServiceImpl implements UserService {
     private String serverPort;
 
     @Override
-    @GetMapping("/getUser")
+//    @GetMapping("/getUser")
     public String getUser(Long userId){
         return "服务提供者 getUser:" + userId + ",port:" + serverPort;
     }

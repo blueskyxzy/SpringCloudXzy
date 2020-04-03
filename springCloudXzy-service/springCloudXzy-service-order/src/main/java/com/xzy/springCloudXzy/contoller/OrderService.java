@@ -1,5 +1,6 @@
 package com.xzy.springCloudXzy.contoller;
 
+import com.xzy.springCloudXzy.openfeign.UserOpenFeign;
 import com.xzy.springCloudXzy.strategy.RotationStrategy;
 import com.xzy.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,6 +33,9 @@ public class OrderService {
     @Autowired
     private LoadBalancerClient loadBalancerClient;
 
+//    @Autowired
+//    private UserOpenFeign userOpenFeign;
+
     @Autowired
     private UserService userService;
 
@@ -63,12 +67,14 @@ public class OrderService {
         return service;
     }
 
+    /**
+     * 基于openFeign客户端调用服务
+     */
     @GetMapping("/getUser")
     public Object getGetUser(){
         String result = userService.getUser(1L);
         return result;
     }
-
 
 
 }
