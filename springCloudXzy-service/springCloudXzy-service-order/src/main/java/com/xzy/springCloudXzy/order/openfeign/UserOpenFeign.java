@@ -1,4 +1,4 @@
-package com.xzy.springCloudXzy.openfeign;
+package com.xzy.springCloudXzy.order.openfeign;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestParam;
  */
 
 @FeignClient("xzynacos-user")
-@RequestMapping("/user")
 public interface UserOpenFeign {
 
     @GetMapping("/getUser")

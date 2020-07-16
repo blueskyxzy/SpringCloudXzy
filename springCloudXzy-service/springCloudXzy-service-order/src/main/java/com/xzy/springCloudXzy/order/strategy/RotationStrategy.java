@@ -1,4 +1,4 @@
-package com.xzy.springCloudXzy.strategy;
+package com.xzy.springCloudXzy.order.strategy;
 
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.stereotype.Component;

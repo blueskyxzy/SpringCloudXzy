@@ -1,4 +1,4 @@
-package com.xzy.springCloudXzy.service;
+package com.xzy.springCloudXzy.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
