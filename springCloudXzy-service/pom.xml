@@ -11,6 +11,7 @@
     <modules>
         <module>springCloudXzy-service-user</module>
         <module>springCloudXzy-service-order</module>
+        <module>xframe-demo-provider</module>
     </modules>
     <packaging>pom</packaging>
 
